@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
       </head>
       <body
         className={`${inter.variable} antialiased`}
-        style={{ overflowX: "hidden" }} // Prevent horizontal scroll
+        style={{ maxWidth: "100vw", overflowX: "hidden" }} // Prevent horizontal scroll
       >
 
         <Aos />
